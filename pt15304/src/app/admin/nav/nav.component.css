@@ -1,0 +1,27 @@
+ul.nav.flex-column {
+    padding-top: 23px;
+    line-height: 34px;
+    color: #727884;
+}
+a.nav-link {
+    color: #f8f8f8;
+}
+.sidebar-brand {
+    color: #fff;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 1.15rem 1.5rem;
+    text-align: center;
+}
+.sidebar-brand svg {
+    fill: #4a88eb;
+    height: 24px;
+    margin-right: 0.15rem;
+    width: 24px;
+    margin-right: 10px;
+}
+
+span.align-middle.me-3 {
+    font-size: 21px;
+}

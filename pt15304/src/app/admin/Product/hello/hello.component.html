@@ -1,0 +1,42 @@
+<!-- 
+<p>{{product.name}}</p>
+<p>{{product.price}}</p>
+<p>{{product.status ? 'còn hàng' : 'hết hàng'}}</p> -->
+<button class="btn btn-primary" style="margin-top: 20px;" routerLink="add">ADD Product</button>
+<table class="table table-bordered mt-5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Decription</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of products; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{item.name}}</td>
+            <td><img [src]="item.image" alt="" width="70px" height="70px"></td>
+            <td>{{item.price}}</td>
+            <td>{{item.dec}}</td>
+
+            <!-- <td><img [src]="item.img" alt="{{item.name}} " width="50"></td>
+            <td>{{item.price}}</td>
+            <td>{{item.status ? 'còn hàng' : 'hết hàng'}}</td> -->
+            <!-- <td><input type="text" name="" id="" (keypress)="onHandleChangeName($event)"></td> -->
+            <!-- <td><input type="text" [(ngModel)]="item.name"></td> -->
+            <td>
+                <button class="btn btn-danger" (click)="onHandleRemove(item.id)">Delete</button>
+                <!-- <button class="btn btn-primary btn-sm" routerLink="/posts/{{item.id}}"
+                    (click)="onDetail(item)">Detail</button> -->
+                <button class="btn btn-primary " routerLink="{{item.id}}/edit" (click)="onDetail(item)">Update</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div *ngIf="detail">
+
+    <!-- <app-product-item [products]="detail"></app-product-item> -->
+
+</div>

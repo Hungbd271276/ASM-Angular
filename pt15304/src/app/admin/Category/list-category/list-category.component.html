@@ -1,0 +1,22 @@
+<table class="table table-bordered mt-5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of category; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{item.name}}</td>
+
+            <td>
+                <button class="btn btn-danger" (click)="onHandleRemove(item.id)">Delete</button>
+                <!-- <button class="btn btn-primary btn-sm" routerLink="/posts/{{item.id}}"
+                    (click)="onDetail(item)">Detail</button> -->
+                <button class="btn btn-primary" routerLink="{{item.id}}/update">Update</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

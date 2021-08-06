@@ -1,0 +1,21 @@
+<h2>Cập nhật sản phẩm</h2>
+<form action="">
+    <div class="mb-3">
+        <label for="">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="product.name" name="name" />
+    </div>
+    <div class="mb-3">
+        <label for="">Image</label>
+        <input type="text" class="form-control" [(ngModel)]="product.image" name="image" />
+
+    </div>
+    <div class="mb-3">
+        <label for="">Price</label>
+        <input type="text" class="form-control" [(ngModel)]="product.price" name="price" />
+    </div>
+    <div class="mb-3">
+        <label for="">Decription</label>
+        <input type="text" class="form-control" [(ngModel)]="product.dec" name="dec" />
+    </div>
+    <button class="btn btn-primary" (click)="onUpdateProduct()">Cập nhật</button>
+</form>

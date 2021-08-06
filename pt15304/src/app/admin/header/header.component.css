@@ -1,0 +1,7 @@
+input.form-control {
+    width: 74%;
+    height: 60%;
+}
+::placeholder {
+    font-size: 13px;
+}

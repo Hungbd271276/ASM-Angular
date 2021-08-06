@@ -1,0 +1,23 @@
+<h2 style="padding-top: 10px;">Thêm sản phẩm</h2>
+<form action="">
+    <div class="mb-3">
+        <label for="">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="product.name" name="names" />
+    </div>
+    <div class="mb-3">
+        <label for="">Image</label>
+        <input type="file" class="form-control" id="image" [(ngModel)]="product.image" name="image"
+            (change)="onselectFile($event)" accept="*.png.jpg" />
+    </div>
+
+    <div class="mb-3">
+        <label for="">Price</label>
+        <input type="text" class="form-control" [(ngModel)]="product.price" name="img" />
+    </div>
+    <div class="mb-3">
+        <label for="">Decription</label>
+        <input type="text" class="form-control" [(ngModel)]="product.dec" name="img" />
+    </div>
+
+    <button class="btn btn-primary" (click)="onAddProduct()">Add</button>
+</form>

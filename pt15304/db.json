@@ -1,0 +1,53 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "sản phẩm 1",
+      "image": "https://i.imgur.com/Fjtfuzs.jpg",
+      "price": 450,
+      "dec": "sản phẩm tôi đánh giá khá phù hợp"
+    },
+    {
+      "id": "2",
+      "name": "sản phẩm 2",
+      "image": "https://linhvnxk.com/wp-content/uploads/2019/03/ao-thun-nam-co-co-xuat-khau-gap-1-500x639.jpg",
+      "price": 450,
+      "dec": "sản phẩm tôi đánh giá khá phù hợp"
+    },
+    {
+      "id": "3",
+      "name": "sản phẩm 3",
+      "image": "http://zizastore.com/image/cache/data/Ao%20thun%20co%20tron/hl011-ao-thun-nam-hang-hieu-hollister-1344-700x700.jpg",
+      "price": 450,
+      "dec": "sản phẩm tôi đánh giá khá phù hợp"
+    },
+    {
+      "id": "4",
+      "name": "sản phẩm 4",
+      "image": "https://linhvnxk.com/wp-content/uploads/2019/03/ao-thun-nam-co-co-xuat-khau-gap-1-500x639.jpg",
+      "price": 450,
+      "dec": "sản phẩm tôi đánh giá khá phù hợp"
+    },
+    {
+      "id": "xtILnPY",
+      "name": "abc123",
+      "image": "https://firebasestorage.googleapis.com/v0/b/upload-image-e7390.appspot.com/o/files%2Fname0.9284001850447472%5Bobject%20File%5D?alt=media&token=b7b35109-73d6-4da5-ad7a-63b6ed4fdddc",
+      "price": "1245",
+      "dec": "cussess"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Áo nam"
+    },
+    {
+      "id": "2",
+      "name": "Áo nữ"
+    },
+    {
+      "id": "3",
+      "name": "bag 2"
+    }
+  ]
+}

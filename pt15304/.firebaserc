@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "upload-image-e7390": {
+      "hosting": {
+        "pt15304": [
+          "upload-image-e7390"
+        ]
+      }
+    }
+  }
+}
